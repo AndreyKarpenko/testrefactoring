@@ -8,7 +8,7 @@ export const BooksView = observer((props) => {
 
     return (
         <div>
-            {booksObserver.books.map((book, i) => (
+            {booksObserver.books.map((book) => (
                 <div key={book.id}>
                     {book.author}: {book.name}
                 </div>

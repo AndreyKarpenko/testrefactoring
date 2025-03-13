@@ -1,2 +1,4 @@
 # testrefactoring
-test task 
+run 
+npm install
+npm start

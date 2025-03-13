@@ -1,0 +1,10 @@
+.bookItem {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bookItemsContainer {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}

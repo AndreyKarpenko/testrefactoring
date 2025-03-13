@@ -1,0 +1,32 @@
+.tabContainer {
+    border-width: 1px;
+    border-color: #303240;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 3px;
+    margin: 12px 0;
+    background-color: #20233A;
+    display: flex;
+}
+
+.tabButton {
+    border-radius:4px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.activeTabButton {
+    background-color: #9A2337;
+}
+
+.tabButtonText {
+    color: white;
+}

@@ -5,7 +5,7 @@ class BooksRepository {
     this.httpGateway = new ApiGateway();
   }
 
-  getBooks = async () => {
+  getAllBooks = async () => {
     return await this.httpGateway.get("/");
   };
 

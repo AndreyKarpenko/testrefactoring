@@ -8,6 +8,10 @@
     border: 2px solid #20233A;
 }
 
+.disabledButton {
+    opacity: 0.5;
+}
+
 .formInput {
     height: 50px;
     border-radius: 10px;
